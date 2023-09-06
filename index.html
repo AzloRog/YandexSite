@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"
+    />
+  </head>
+  <body>
+    <div class="wrapper">
+      <header class="header">
+        <div class="header__container container">
+          <div class="header__row">
+            <div class="header__body body-header">
+              <div class="body-header__logo">
+                <img src="./images/YandexGo.svg" alt="YandexGo Logo" />
+              </div>
+              <div class="body-header__title">Вступайте в клуб Самокатов</div>
+              <div class="body-header__text">
+                Купите абонемент, чтобы стать частью клуба в новом сезоне-2024.
+                8 месяцев за
+                <span class="body-header__text-price"
+                  ><span class="body-header__text-price_first">499₽</span
+                  ><span class="body-header__text-price_second"
+                    >3190₽</span
+                  ></span
+                >
+              </div>
+              <a href="#" class="body-header__link link">Стать частью клуба</a>
+            </div>
+            <div class="header__image">
+              <img src="./images/header-image.png" alt="The yellow scooter" />
+            </div>
+          </div>
+        </div>
+      </header>
+      <main>
+        <div class="features">
+          <div class="features__container container">
+            <h2 class="features__title">Вот что даёт участие в клубе</h2>
+            <ol class="features__list list-features">
+              <li class="list-features__item item-features-list">
+                <div class="item-features-list__image">
+                  <img src="images/features/icon1.png" alt="0 rubles" />
+                </div>
+                <div class="item-features-list__text">
+                  0 ₽ за старт в каждой поездке
+                </div>
+              </li>
+              <li class="list-features__item item-features-list">
+                <div class="item-features-list__image">
+                  <img src="images/features/icon2.png" alt="0 rubles" />
+                </div>
+                <div class="item-features-list__text">
+                  Катаетесь с друзьями? Бронируйте до трёх самокатов с аккаунта
+                  с абонементом — так у всех будет бесплатный старт
+                </div>
+              </li>
+              <li class="list-features__item item-features-list">
+                <div class="item-features-list__image">
+                  <img src="images/features/icon3.png" alt="0 rubles" />
+                </div>
+                <div class="item-features-list__text">
+                  Бесплатная пауза 15 минут в поездке — например, чтобы зайти за
+                  кофе или передохнуть
+                </div>
+              </li>
+              <li class="list-features__item item-features-list">
+                <div class="item-features-list__image">
+                  <img src="images/features/icon4.png" alt="0 rubles" />
+                </div>
+                <div class="item-features-list__text">
+                  Если самокат недостаточно заряжен или с ним неудобно
+                  переходить дорогу, замените по пути на другой — это бесплатно
+                </div>
+              </li>
+            </ol>
+          </div>
+        </div>
+        <div class="exclusive">
+          <div class="exclusive__container container">
+            <h2 class="exclusive__title">
+              Эксклюзивный доступ к событиям Самокатов
+            </h2>
+            <p class="exclusive__text">
+              С абонементом — у вас доступ к специальным мероприятиям, скидки
+              и классный мерч. В 2023 году мы танцевали на Даче Плюс
+              с Антохой MC, катались на самокатах с Сергеем Мезенцевым и слушали
+              хор Attaque de Panique
+            </p>
+            <div class="exclusive__slider slider">
+              <div class="slider__body swiper">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide">
+                    <img src="./images/exclusive-slider/01.jpg" alt="People" />
+                  </div>
+                  <div class="swiper-slide">
+                    <img src="./images/exclusive-slider/02.jpg" alt="People" />
+                  </div>
+                  <div class="swiper-slide">
+                    <img src="./images/exclusive-slider/03.jpg" alt="People" />
+                  </div>
+                  <div class="swiper-slide">
+                    <img src="./images/exclusive-slider/04.jpg" alt="People" />
+                  </div>
+                </div>
+              </div>
+              <div class="slider__nav">
+                <div class="slider__btn slider__btn_prev"></div>
+                <div
+                  class="slider__btn slider__btn_next"
+                  id="slide-next-button"
+                ></div>
+              </div>
+            </div>
+            <div class="exclusive__row">
+              <div class="exclusive__column">
+                <img src="./images/exclusive-slider/01.jpg" alt="People" />
+              </div>
+              <div class="exclusive__column exclusive__column_up">
+                <img src="./images/exclusive-slider/02.jpg" alt="People" />
+              </div>
+              <div class="exclusive__column">
+                <img src="./images/exclusive-slider/04.jpg" alt="People" />
+              </div>
+              <div class="exclusive__column exclusive__column_up">
+                <img src="./images/exclusive-slider/03.jpg" alt="People" />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="buy">
+          <div class="buy__container container">
+            <div class="buy__advantage buy-advantage">
+              <div class="buy-advantage__body">
+                <h2 class="buy-advantage__title">
+                  Купить абонемент и вступить в клуб смогут те, кто в Плюсе
+                </h2>
+                <p class="buy-advantage__text">
+                  За каждую поездку на самокатах такие пользователи получают
+                  кешбэк баллами. Баллы можно тратить на поездки на самокатах
+                  и такси с Яндекс Go, покупки и заказы в других сервисах
+                  Яндекса
+                </p>
+              </div>
+              <div class="buy-advantage__image">
+                <img
+                  src="./images/buy/buy-advatnages/Component 1.png"
+                  alt="The scooter"
+                />
+              </div>
+            </div>
+            <div class="buy__join buy-join">
+              <div class="buy-join__image">
+                <img src="./images/buy/buy-join/image.png" alt="The scooter" />
+              </div>
+              <div class="buy-join__body">
+                <h2 class="buy-join__title">
+                  80  % наших пользователей уже в клубе и экономят на поездках
+                </h2>
+                <p class="buy-join__text">
+                  Присоединяйтесь — опция начнёт действовать в начале
+                  сезона–2024. Об открытии сезона предупредим заранее, чтобы вы
+                  были готовы
+                </p>
+                <a href="#" class="buy-join__link link">Хочу абонемент</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </main>
+      <footer class="footer">
+        <div class="footer__container container">
+          <p class="footer__text">
+            Доп. опция «Абонемент на самокаты» на 8 месяцев (240 дней)
+            активируется автоматически с момента старта сезона 2024 г. самокатов
+            Яндекс Go, далее предусмотрено автопродление доп.опции за 399
+            руб./мес. Сертификат на доп.опцию «Абонемент на самокаты» на 8
+            месяцев оформляется на условиях документа
+            <a href="https://yandex.ru/legal/scooters_seasonpass"
+              >yandex.ru/legal/scooters_seasonpass</a
+            >. Доп.опция доступна пользователям с активной подпиской (условия
+            подписки:
+            <a href="https://yandex.ru/legal/yandex_plus_conditions"
+              >yandex.ru/legal/yandex_plus_conditions</a
+            >), есть ограничения, подробнее:
+            <a href="https://yandex.ru/legal/yandex_plus_opzii_list"
+              >yandex.ru/legal/yandex_plus_opzii_list</a
+            >. В случае отсутствия у пользователя активной подписки на дату
+            активации доп.опции, пользователю предоставляется 7 дней подписки
+            Яндекс Плюс бесплатно, далее автопродление — 299 руб./мес.
+            Электросамокаты Яндекс Go — сервис аренды электросамокатов на
+            условиях: <a href="https://clck.ru/gwDGn">clck.ru/gwDGn</a>. 0+
+          </p>
+        </div>
+      </footer>
+    </div>
+    <div class="button">
+      <div class="button__container container">
+        <a href="#" class="button__link link">Стать частью клуба</a>
+      </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <script src="./js/index.js"></script>
+  </body>
+</html>
